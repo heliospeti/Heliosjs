@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Helios Peti task</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <h1>Helios Peti task</h1>
+      <form id="userForm">
+        <label for="userName">Emri:</label>
+        <input type="text" id="userName" required minlength="2" />
+        <label for="userType">Tipi:</label>
+        <select id="userType">
+          <option value="Student">Student</option>
+          <option value="Teacher">Mesues</option>
+        </select>
+        <button type="submit">Shto</button>
+      </form>
+      <input type="text" id="search" placeholder="Kerko" />
+      <ul id="userList"></ul>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
